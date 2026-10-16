@@ -17,7 +17,7 @@ class Home extends StatelessWidget {
         centerTitle: true,
       ),
       body: Center(
-        child: Image.asset('assets/portrait.jpg')
+        child: ElevatedButton.icon(onPressed: () {}, label: Text('mail me'), icon: const Icon(Icons.mail),)
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},

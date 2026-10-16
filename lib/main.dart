@@ -17,15 +17,7 @@ class Home extends StatelessWidget {
         centerTitle: true,
       ),
       body: Center(
-        child: Text(
-          'hello ninjas!',
-          style: TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey[600],
-          ),
-        ),
+        child: Image.asset('assets/portrait.jpg')
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},

@@ -16,8 +16,11 @@ class Home extends StatelessWidget {
         title: Text('my first app'),
         centerTitle: true,
       ),
-      body: Center(
-        child: ElevatedButton.icon(onPressed: () {}, label: Text('mail me'), icon: const Icon(Icons.mail),)
+      body: Container(
+        padding: EdgeInsets.all(10),
+        margin: EdgeInsets.all(30),
+        color: Colors.grey[400],
+        child: Text('hello'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
